@@ -25,5 +25,9 @@ module.exports = {
     'react/forbid-prop-types': 0,
     'import/prefer-default-export': 0,
     'import/extensions': 0,
+    'arrow-parens': 0,
+    'implicit-arrow-linebreak': 0,
+    'object-curly-newline': 0,
+    'operator-linebreak': 0,
   },
 };
