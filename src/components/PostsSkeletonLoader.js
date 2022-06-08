@@ -1,13 +1,14 @@
 import React from 'react';
 import ContentLoader, { Rect } from 'react-content-loader/native';
+import { getScreenHeight, getScreenWidth } from '../utils/Helpers';
 
 function PostsSkeletonLoader() {
   return (
     <ContentLoader
       speed={1}
-      width={476}
-      height={1000}
-      viewBox="0 0 476 1000"
+      width={getScreenWidth()}
+      height={getScreenHeight()}
+      viewBox={`0 0 ${getScreenWidth()} ${getScreenHeight()}`}
       backgroundColor="#d1d1d1"
       foregroundColor="#ecebeb"
     >
